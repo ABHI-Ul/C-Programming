@@ -1,0 +1,10 @@
+int x=2;
+
+if(x=1) {
+// here x=1 so it removes the 2 which was stored for x if "==" was given it woud check the value in x and give false as answer
+   printf("x is equal to 1);
+} else {
+  printf("x is not equal to 1");
+}
+return 0;
+}
