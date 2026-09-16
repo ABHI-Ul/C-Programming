@@ -5,10 +5,11 @@ int main() {
         printf("enter number:");
         scanf("%d",&n);
         printf("%d \n", n);
-        if( n % 2 !=0);
+
+        if( n % 2 !=0) {
            break;
-    }
-     while (1);
-     printf("Thank you");
-    return 0;
+        }
+    }while (1);
+    printf("Thank you");
+return 0;
 }
