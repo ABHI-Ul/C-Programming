@@ -2,7 +2,7 @@
 void calculateprint(float value);\
 
 int main() {
-    float value =100;
+    float value =100.0;
    calculateprint(value); 
    printf("value is :%f \n",value );
     return 0;
