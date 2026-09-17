@@ -4,6 +4,7 @@ void calculateprint(float value);\
 int main() {
     float value =100;
    calculateprint(value); 
+    printf("value is:%f \n");
     return 0;
 }
 
